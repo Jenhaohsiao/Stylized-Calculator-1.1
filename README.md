@@ -1,4 +1,4 @@
-# Stylized-Calculator-1.1
+# Stylized-Calculator-1.1 (programmatically without storyboard)
 Project: Stylized Calculator iOS
 
 Categories: Utilities
@@ -10,7 +10,7 @@ Description:
 (4) It can download from App Store anytime for free.
 
 Language: Swift3 with Xcode8 in iOS10 
-(programmatically without storyboard)
+
 
 DataBase: CoreData, Userdefault
 
