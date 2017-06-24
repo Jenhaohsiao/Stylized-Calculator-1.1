@@ -9,7 +9,8 @@ Description:
 (3) It has another line for showing calculating detail. Easy for using and reading.
 (4) It can download from App Store anytime for free.
 
-Language: Swift3 with Xcode8 in iOS10
+Language: Swift3 with Xcode8 in iOS10 
+(programmatically without storyboard)
 
 DataBase: CoreData, Userdefault
 
