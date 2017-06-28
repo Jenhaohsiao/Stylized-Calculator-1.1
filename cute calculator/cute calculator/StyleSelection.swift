@@ -17,7 +17,7 @@ class StyleSelection: UIViewController{
     let StyleClassic = UIButton(type: .custom)
     let StyleParkingLot = UIButton(type: .custom)
     var userSelection : UserDefaults!
-
+    var usingFounction = Functions()
 
 
     override func viewDidLoad() {
@@ -66,7 +66,7 @@ class StyleSelection: UIViewController{
     }
 
     override func viewWillAppear(_ animated: Bool) {
-        cleanAll()
+        usingFounction.cleanAll()
     }
 
     func backtoPreviousPage(){

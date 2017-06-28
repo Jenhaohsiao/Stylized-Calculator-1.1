@@ -9,25 +9,26 @@
 import Foundation
 import UIKit
 
-func getResult(operation:String){
+extension Functions{
 
-    switch operation {
-    case "/":
-        result = value01 / value02
-    case "*":
-        result = value01 * value02
-    case "-":
-        result = value01 - value02
-    case "+":
-        result = value01 + value02
-    default:
-        result = value02
+    func getResult(operation:String){
+        switch operation {
+        case "/":
+            result = value01 / value02
+        case "*":
+            result = value01 * value02
+        case "-":
+            result = value01 - value02
+        case "+":
+            result = value01 + value02
+        default:
+            result = value02
 
-        print("func getResult Error")
+            print("func getResult Error")
+        }
+
+        Labealmain = String(result)
+        LabealmainToDouble = result
+        boolFirstType = true
     }
-
-    Labealmain = String(result)
-    LabealmainToDouble = result
-    boolFirstType = true
-
 }

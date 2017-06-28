@@ -9,36 +9,38 @@
 import Foundation
 import UIKit
 
-func ButtonDel(){
+extension Functions{
 
-    let last1 = Labealmain.characters.last!
+    func ButtonDel(){
 
-    if boolFirstType == true {
+        let last1 = Labealmain.characters.last!
 
-    }else if  boolFirstType == false {
+        if boolFirstType == true {
 
-        var delNumber = Labealmain
+        }else if  boolFirstType == false {
 
-        delNumber.remove(at: (delNumber.index(before: (delNumber.endIndex))))
+            var delNumber = Labealmain
 
-        if delNumber == "" || delNumber == "-"  {
-            Labealmain = "0"
-            boolFirstType = true
+            delNumber.remove(at: (delNumber.index(before: (delNumber.endIndex))))
+
+            if delNumber == "" || delNumber == "-"  {
+                Labealmain = "0"
+                boolFirstType = true
 
 
-        }else if last1 == "." {
-            boolDecimalPoint = false
-             Labealmain = delNumber
+            }else if last1 == "." {
+                boolDecimalPoint = false
+                Labealmain = delNumber
 
-        }else if delNumber != "" &&  delNumber != "."{
-            Labealmain = delNumber
+            }else if delNumber != "" &&  delNumber != "."{
+                Labealmain = delNumber
+            }
+
         }
 
+        //create number on Labealmain
+        LabealmainToDouble = Double(Labealmain)!
+        arrayDetailProcess(Input: formattedWithSeparatorResult(InputString: Labealmain))
+        
     }
-
-    //create number on Labealmain
-
-    LabealmainToDouble = Double(Labealmain)!
-    arrayDetailProcess(Input: formattedWithSeparatorResult(InputString: Labealmain))
-    
 }

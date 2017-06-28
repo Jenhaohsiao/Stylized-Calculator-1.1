@@ -9,11 +9,14 @@
 import Foundation
 import UIKit
 
-func Percent(){
-    print("func Percent")
-    Labealmain = String(Double(Labealmain)! * 0.01)
-    LabealmainToDouble = Double(Labealmain)!
+extension Functions{
 
-    arrayDetailProcess(Input: formattedWithSeparatorResult(InputString: Labealmain))
+    func Percent(){
+        print("func Percent")
+        Labealmain = String(Double(Labealmain)! * 0.01)
+        LabealmainToDouble = Double(Labealmain)!
 
+        arrayDetailProcess(Input: formattedWithSeparatorResult(InputString: Labealmain))
+        
+    }
 }

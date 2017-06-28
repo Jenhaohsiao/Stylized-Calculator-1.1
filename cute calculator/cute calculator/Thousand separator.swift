@@ -73,21 +73,21 @@ func formattedWithSeparator(InputString:String) -> String {
     if  numLong > numIntLong  {
 
         let plusNum=(num1 as NSString).substring(from: numIntLong)
-         return Output + plusNum
+        return Output + plusNum
 
     }else{
 
-         return Output
+        return Output
     }
 
 }
 
 
-    func formattedWithSeparatorResult(InputString:String) -> String {
-        let Input = Double(InputString)!
-        let Output = String(Input.formattedWithSeparatorResult)!
-        
-        return Output
+func formattedWithSeparatorResult(InputString:String) -> String {
+    let Input = Double(InputString)!
+    let Output = String(Input.formattedWithSeparatorResult)!
+    
+    return Output
 }
 
 

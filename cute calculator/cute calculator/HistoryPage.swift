@@ -117,13 +117,7 @@ class HistoryPage: UIViewController ,UITableViewDelegate , UITableViewDataSource
         let cellIdentifier = "HistoryCell"
         let cell = HistoryTableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! HistoryListCell
 
-//        let HistoryCellInfo = HistoryArray[indexPath.row]
-//
-//        if tableView == self.HistoryTableView {
-//            cell.operationProcessOnCellLabel .text = HistoryCellInfo.operationProcess
-//            cell.operationResultOnCellLabel .text = HistoryCellInfo.operationResult
-//
-//        }
+
 
         let HistoryCellInfo = TaskFromCoreData[indexPath.row]
 
@@ -138,7 +132,7 @@ class HistoryPage: UIViewController ,UITableViewDelegate , UITableViewDataSource
     }
 
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
+
         return true
     }
 

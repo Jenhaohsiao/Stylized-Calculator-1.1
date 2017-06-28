@@ -9,29 +9,24 @@
 import Foundation
 import UIKit
 
-func PosNeg(){
+extension Functions{
 
-//Label
+    func PosNeg(){
+        //Label
+        let first = String(Labealmain.characters.prefix(1))
+        if first == "-" {
+            Labealmain.remove(at: Labealmain.startIndex)
+        }else if first != "-"{
+            Labealmain = "-" + Labealmain
+        }
 
-    let first = String(Labealmain.characters.prefix(1))
+        LabealmainToDouble = Double(Labealmain)!
+        // Detail
+        arrayDetail.remove(at: arrayDetail.count - 1)
+        arrayDetail.append(Labealmain)
 
-    if first == "-" {
+        arrayDetailProcess(Input: formattedWithSeparatorResult(InputString: Labealmain))
 
-         Labealmain.remove(at: Labealmain.startIndex)
 
-    }else if first != "-"{
-
-        Labealmain = "-" + Labealmain
     }
-
-    LabealmainToDouble = Double(Labealmain)!
-
-
-// Detail
-    arrayDetail.remove(at: arrayDetail.count - 1)
-    arrayDetail.append(Labealmain)
-
-    arrayDetailProcess(Input: formattedWithSeparatorResult(InputString: Labealmain))
-
-
 }

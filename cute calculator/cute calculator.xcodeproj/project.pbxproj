@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222235D01F0469E300E9F511 /* Func NumberPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222235CF1F0469E300E9F511 /* Func NumberPart.swift */; };
+		222235D21F046A7B00E9F511 /* Func OperationPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222235D11F046A7B00E9F511 /* Func OperationPart.swift */; };
+		222235D41F046ABF00E9F511 /* Func TrueCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222235D31F046ABF00E9F511 /* Func TrueCalculation.swift */; };
 		223B292C1EF417CE00DD1800 /* Overpass.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223B292B1EF414C100DD1800 /* Overpass.ttf */; };
 		224206BC1EEBCEAA00F91E74 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224206BB1EEBCEAA00F91E74 /* Functions.swift */; };
 		224207231EEDC3C100F91E74 /* HistoryCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 224207211EEDC3C100F91E74 /* HistoryCoreData.xcdatamodeld */; };
@@ -44,6 +47,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		222235CF1F0469E300E9F511 /* Func NumberPart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Func NumberPart.swift"; sourceTree = "<group>"; };
+		222235D11F046A7B00E9F511 /* Func OperationPart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Func OperationPart.swift"; sourceTree = "<group>"; };
+		222235D31F046ABF00E9F511 /* Func TrueCalculation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Func TrueCalculation.swift"; sourceTree = "<group>"; };
 		223B292B1EF414C100DD1800 /* Overpass.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Overpass.ttf; sourceTree = "<group>"; };
 		224206BB1EEBCEAA00F91E74 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		224207221EEDC3C100F91E74 /* HistoryCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HistoryCoreData.xcdatamodel; sourceTree = "<group>"; };
@@ -149,8 +155,11 @@
 				224F4B771EDE2C3100F2B852 /* Assets.xcassets */,
 				22B119211EC39B5300F40623 /* LaunchScreen.storyboard */,
 				22B119241EC39B5300F40623 /* Info.plist */,
-				224EBFFC1EEA4267001E095C /* Func SaveRecord.swift */,
 				224206BB1EEBCEAA00F91E74 /* Functions.swift */,
+				222235D31F046ABF00E9F511 /* Func TrueCalculation.swift */,
+				222235D11F046A7B00E9F511 /* Func OperationPart.swift */,
+				224EBFFC1EEA4267001E095C /* Func SaveRecord.swift */,
+				222235CF1F0469E300E9F511 /* Func NumberPart.swift */,
 				2243B3F31EE4725C00EC42A7 /* Func arrayDetailProcess.swift */,
 				2243B3C11EE25CB500EC42A7 /* Func CleanAll.swift */,
 				2243B3C31EE25D3B00EC42A7 /* Func Del.swift */,
@@ -260,15 +269,18 @@
 				22B8522C1EE8F14600BA8431 /* HistoryClass.swift in Sources */,
 				2275F3B91ED7C32D00E57299 /* Thousand separator.swift in Sources */,
 				2243B3CC1EE26BCC00EC42A7 /* Func getResult.swift in Sources */,
+				222235D01F0469E300E9F511 /* Func NumberPart.swift in Sources */,
 				224C3AF81EEE50B00018CDBE /* StartPage.swift in Sources */,
 				2243B3C21EE25CB500EC42A7 /* Func CleanAll.swift in Sources */,
 				22A000151EF2204B005C7F47 /* Style_ParkingLot.swift in Sources */,
 				224F4B761EDE1BB800F2B852 /* Style01Classicbycode.swift in Sources */,
 				224EBFFD1EEA4267001E095C /* Func SaveRecord.swift in Sources */,
+				222235D41F046ABF00E9F511 /* Func TrueCalculation.swift in Sources */,
 				2248B3BF1EE75EDE00E7D98A /* HistoryPage.swift in Sources */,
 				224207231EEDC3C100F91E74 /* HistoryCoreData.xcdatamodeld in Sources */,
 				224206BC1EEBCEAA00F91E74 /* Functions.swift in Sources */,
 				22B852301EE8F94000BA8431 /* HistoryListCell.swift in Sources */,
+				222235D21F046A7B00E9F511 /* Func OperationPart.swift in Sources */,
 				2243B3CA1EE25E7900EC42A7 /* Func Percent.swift in Sources */,
 				2243B3F41EE4725C00EC42A7 /* Func arrayDetailProcess.swift in Sources */,
 			);
