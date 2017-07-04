@@ -69,7 +69,7 @@ class Style_ParkingLot: UIViewController {
         let codeImage = UIImage(named: "packingLot_background")
         let codeImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height))
         codeImageView.image = codeImage
-        codeImageView.contentMode = .scaleAspectFit
+        codeImageView.contentMode = .scaleToFill
         self.view.addSubview(codeImageView)
 
         //MARK: Set ButtonNumber 0

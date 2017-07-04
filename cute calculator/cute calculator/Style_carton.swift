@@ -69,7 +69,7 @@ class Style_carton: UIViewController {
         let codeImage = UIImage(named: "Style02-carton_carton_background2")
         let codeImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height))
         codeImageView.image = codeImage
-        codeImageView.contentMode = .scaleAspectFit
+        codeImageView.contentMode = .scaleToFill
         self.view.addSubview(codeImageView)
 
         //MARK: Set ButtonNumber 0

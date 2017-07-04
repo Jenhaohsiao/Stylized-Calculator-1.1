@@ -19,6 +19,7 @@ extension Formatter {
         formatter.notANumberSymbol = "Error,Not a Number"
         formatter.paddingPosition = .beforePrefix
         formatter.numberStyle = .decimal
+        formatter.roundingMode = .down
         return formatter
     }()
 
@@ -32,6 +33,7 @@ extension Formatter {
         formatter.notANumberSymbol = "Error,Not a Number"
         formatter.paddingPosition = .beforePrefix
         formatter.numberStyle = .decimal
+        formatter.roundingMode = .down
         return formatter
     }()
 
